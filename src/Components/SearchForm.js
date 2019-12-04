@@ -34,7 +34,7 @@ const SearchForm = (props) => {
                     value={props.userInput}
                     onChange={props.handleChange}
                 />
-                <button style={buttonStyle} onClick={props.fetchUser}>get user</button>
+                <button style={buttonStyle} onClick={props.fetchUser}>git user</button>
             </form>
         </div>
     )
