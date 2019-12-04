@@ -5,7 +5,7 @@ const formStyle = {
 }
 
 const inputStyle = {
-    width: '30rem',
+    width: '20rem',
     height: '2rem',
     borderRadius: '5px',
     fontSize: '1.6rem'
