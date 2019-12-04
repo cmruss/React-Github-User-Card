@@ -3,7 +3,7 @@ import React from 'react';
 const containerStyle = {
     width: '90%',
     backgroundColor: 'whitesmoke',
-    margin: '2% auto',
+    margin: '0 auto',
     borderRadius: '5px',
     padding: '3%',
     boxShadow: '5px 10px 15px'
