@@ -8,18 +8,22 @@ const inputStyle = {
     width: '20rem',
     height: '2rem',
     borderRadius: '5px',
-    fontSize: '1.6rem'
+    fontSize: '1.6rem',
 }
 
 const buttonStyle ={
-    fontSize: '1.8rem',
+    fontSize: '1.2rem',
+    fontWeight: '600',
     height: '2.8rem',
     borderRadius: '5px',
-    backgroundColor: 'azure',
-    color: 'royalblue',
+    color: '#24292e',
+    backgroundColor: '#eff3f6',
+    backgroundImage: 'linear-gradient(-180deg,#fafbfc,#eff3f6 90%)',
+    border: '1px solid rgba(27,31,35,.2)',
     margin: '0 2%',
-    border: 'none',
-    boxShadow: '1px 1px 5px lightgrey'
+    padding: '3px 10px',
+    boxShadow: '1px 1px 5px lightgrey',
+    cursor: 'pointer'
 }
 
 const SearchForm = (props) => {

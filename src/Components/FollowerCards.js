@@ -39,7 +39,7 @@ const FollowerCards = (props) => {
                 {props.followers.map(follower =>(
                     <div className='follower-card' style={cardStyle} key={follower.id}>
                         <img src={follower.avatar_url} alt={follower.login} style={imgStyle}/>
-                        <a href={`${follower.html_url}`} target='_blank' style={aStyle}><h2>{follower.login}</h2></a>
+                        <a href={`${follower.html_url}`} target='_blank' rel='noopener noreferrer' style={aStyle}><h2>{follower.login}</h2></a>
                     </div>
                 ))}
             </div>
