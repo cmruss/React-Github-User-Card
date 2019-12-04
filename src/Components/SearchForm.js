@@ -12,14 +12,14 @@ const inputStyle = {
 }
 
 const buttonStyle ={
-    height: '2rem',
-    fontSize: '1.4rem',
+    fontSize: '1.8rem',
+    height: '2.8rem',
     borderRadius: '5px',
     backgroundColor: 'azure',
     color: 'royalblue',
     margin: '0 2%',
     border: 'none',
-    boxShadow: '1px 1px 2px'
+    boxShadow: '1px 1px 5px lightgrey'
 }
 
 const SearchForm = (props) => {

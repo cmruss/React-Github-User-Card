@@ -27,7 +27,7 @@ const UserCard = (props) => {
                     <img src={props.user.avatar_url} alt={props.user.name} style={imgStyle}/>
                     <div className='user-info'>
                         <h2>{props.user.name}</h2>
-                        <a href={`${props.user.html_url}`} style={aStyle}><h2>{props.user.login}</h2></a>
+                        <a href={`${props.user.html_url}`} target='_blank' style={aStyle}><h2>{props.user.login}</h2></a>
                         <h3>{props.user.location}</h3>
                     </div>
                     
